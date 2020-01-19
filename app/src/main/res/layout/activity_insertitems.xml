@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundinsert"
+    android:orientation="vertical"
+    tools:context=".insertitems">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/m" />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/home"
+            android:id="@+id/home"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="12dp"/>
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="12dp"
+            app:srcCompat="@drawable/back" />
+</LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:orientation="vertical">
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:errorEnabled="true">
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:ems="10"
+            android:fontFamily="@font/aclonica"
+            android:hint="Product Name"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="#94343838" />
+</android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        app:errorEnabled="true"> <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:ems="10"
+            android:fontFamily="@font/aclonica"
+            android:hint="Brand Name"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="#94343838" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true">
+            <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:ems="10"
+            android:fontFamily="@font/aclonica"
+            android:hint="Quantity"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textColorHint="#94343838" />
+    </android.support.design.widget.TextInputLayout>
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:errorEnabled="true">
+            <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_marginTop="15dp"
+            android:ems="10"
+            android:fontFamily="@font/aclonica"
+            android:hint="Expiry Date"
+            android:textColor="@color/black"
+            android:textColorHint="#94343838"
+                android:inputType="date">
+        </EditText></android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true">
+    <EditText
+            android:id="@+id/editText8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:ems="10"
+            android:fontFamily="@font/aclonica"
+            android:hint="MRP"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#94343838" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true">
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:ems="10"
+            android:fontFamily="@font/aclonica"
+            android:hint="WholeSale Price"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="#94343838" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true">
+        <EditText
+            android:id="@+id/editText10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:ems="10"
+            android:fontFamily="@font/aclonica"
+            android:hint="Serial No."
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textColorHint="#94343838" /></android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="cursive"
+            android:text="Dealer Information"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true">
+            <EditText
+                android:id="@+id/dealername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:ems="10"
+                android:fontFamily="@font/aclonica"
+                android:hint="Dealer Name"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="#94343838" /></android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true">
+            <EditText
+                android:id="@+id/company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:ems="10"
+                android:fontFamily="@font/aclonica"
+                android:hint="Company"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="#94343838" /></android.support.design.widget.TextInputLayout>
+
+</LinearLayout>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button2"
+            android:fontFamily="@font/alfa_slab_one"
+            android:text="Entry"
+            android:textColor="@color/yellow"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+</ScrollView>
+
+    </LinearLayout>
+

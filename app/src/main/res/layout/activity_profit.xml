@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundinsert"
+    tools:context=".profit"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/home"
+        android:id="@+id/home"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/back"
+        android:id="@+id/back"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="-38dp"/>
+
+    <TextView
+        android:id="@+id/profit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="PROFIT"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOSS"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/loss"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOTAL SALE"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/totalsale"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
